@@ -1,0 +1,58 @@
+{
+  "chains": {
+    "mantle": {
+      "name": "mantle",
+      "domain": "5001",
+      "addresses": {
+        "mailbox": "0x57Ca024f0602122e3b7876A5E6136290332b63Af",
+        "interchainGasPaymaster": "0xb1399f7753E0097a1C1398d4d54542672e16d725",
+        "validatorAnnounce": "0x7342fF977A799789704123849b35CC64874260bd"
+      },
+      "protocol": "ethereum",
+      "finalityBlocks": 0,
+      "connection": {
+        "type": "http",
+        "url": ""
+      },
+      "index": {
+        "from": 2460027
+      }
+    },
+    "zkevm": {
+      "name": "zkevm",
+      "domain": "1442",
+      "addresses": {
+        "mailbox": "0xCC737a94FecaeC165AbCf12dED095BB13F037685",
+        "interchainGasPaymaster": "0x8f9C3888bFC8a5B25AED115A82eCbb788b196d2a",
+        "validatorAnnounce": "0x3Fc742696D5dc9846e04f7A1823D92cb51695f9a"
+      },
+      "protocol": "ethereum",
+      "finalityBlocks": 0,
+      "connection": {
+        "type": "http",
+        "url": ""
+      },
+      "index": {
+        "from": 14863532
+      }
+    },
+    "scrollalphatestnet": {
+      "name": "scrollalphatestnet",
+      "domain": "534353",
+      "addresses": {
+        "mailbox": "0xCC737a94FecaeC165AbCf12dED095BB13F037685",
+        "interchainGasPaymaster": "0x8f9C3888bFC8a5B25AED115A82eCbb788b196d2a",
+        "validatorAnnounce": "0x3Fc742696D5dc9846e04f7A1823D92cb51695f9a"
+      },
+      "protocol": "ethereum",
+      "finalityBlocks": 0,
+      "connection": {
+        "type": "http",
+        "url": ""
+      },
+      "index": {
+        "from": 14863532
+      }
+    }
+  }
+}
