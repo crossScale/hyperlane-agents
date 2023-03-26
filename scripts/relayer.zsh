@@ -10,5 +10,6 @@ done
 echo "Running Relayer for $chain"
 
 env_file="relayer.$chain.env"
+absolute_path=/Users/2pats/Desktop/code/xscale/hyperlane-agents
 
-docker run -it --mount type=bind,source=/Users/2pats/Desktop/code/xscale/hyperlane-agents/config/custom.json,target=/config/custom.json,readonly -e CONFIG_FILES=/config/custom.json --env-file $env_file gcr.io/abacus-labs-dev/hyperlane-agent:1cbe5fd-20230309-202035 ./relayer
+docker run -it --mount type=bind,source=$absolute_path/config/custom.json,target=/config/custom.json,readonly -e CONFIG_FILES=/config/custom.json --env-file $env_file gcr.io/abacus-labs-dev/hyperlane-agent:1cbe5fd-20230309-202035 ./relayer
