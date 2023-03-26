@@ -4,9 +4,9 @@
       "name": "mantle",
       "domain": "5001",
       "addresses": {
-        "mailbox": "0x57Ca024f0602122e3b7876A5E6136290332b63Af",
-        "interchainGasPaymaster": "0xb1399f7753E0097a1C1398d4d54542672e16d725",
-        "validatorAnnounce": "0x7342fF977A799789704123849b35CC64874260bd"
+        "mailbox": "0xB7e93132a968EEbadd0c4A382289d55Fe7eC27D4",
+        "interchainGasPaymaster": "0xE575c7cBDb72C09c6B14298a0cf7a57E82d9e2F2",
+        "validatorAnnounce": "0x03aB429F54E9F640a58AbD013a0067d25D9016"
       },
       "protocol": "ethereum",
       "finalityBlocks": 0,
